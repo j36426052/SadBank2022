@@ -1,0 +1,128 @@
+{
+    "type": "bubble",
+    "hero": {
+      "type": "image",
+      "url": "https://cdn.hk01.com/di/media/images/3115222/org/ce4dba708b255faba316c9299c185d2a.jpg/4keHzYtmACI00b_-YgiyvCr4yn0nxGCR6eag5OnmoOQ?v=w1920",
+      "size": "full",
+      "aspectRatio": "20:13",
+      "aspectMode": "cover",
+      "action": {
+        "type": "uri",
+        "uri": "http://linecorp.com/"
+      }
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "Sad Baank",
+          "weight": "bold",
+          "size": "xl"
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "margin": "lg",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "類別",
+                  "color": "#aaaaaa",
+                  "size": "xl",
+                  "flex": 2
+                },
+                {
+                  "type": "text",
+                  "text": "轉帳",
+                  "wrap": true,
+                  "color": "#666666",
+                  "size": "xl",
+                  "flex": 5
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "轉出",
+                  "color": "#aaaaaa",
+                  "size": "xl",
+                  "flex": 2
+                },
+                {
+                  "type": "text",
+                  "text": "蟹皮購物",
+                  "wrap": true,
+                  "color": "#666666",
+                  "size": "xl",
+                  "flex": 5
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "金額",
+                  "color": "#aaaaaa",
+                  "size": "xl",
+                  "flex": 2
+                },
+                {
+                  "type": "text",
+                  "text": "$900 NTD",
+                  "wrap": true,
+                  "color": "#666666",
+                  "size": "xl",
+                  "flex": 5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "horizontal",
+      "spacing": "sm",
+      "contents": [
+        {
+          "type": "button",
+          "style": "link",
+          "height": "sm",
+          "action": {
+            "type": "uri",
+            "label": "取消",
+            "uri": "https://linecorp.com"
+          }
+        },
+        {
+          "type": "button",
+          "style": "link",
+          "height": "sm",
+          "action": {
+            "type": "uri",
+            "label": "確認",
+            "uri": "https://linecorp.com"
+          }
+        }
+      ],
+      "flex": 0
+    }
+  }
